@@ -74,6 +74,7 @@ Did you found a bug or got an idea for a new feature? Feel free to use the [issu
 ## License
 
 This work is licensed under the MIT License. For more information read the [License](//github.com/aerohub/hugrid/blob/master/LICENSE.md).
+And there are [Original Codrops Licensing and Terms Of Use](http://tympanus.net/codrops/licensing/).
 
 
 ## Annotations
