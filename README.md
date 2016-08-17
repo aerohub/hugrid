@@ -46,7 +46,7 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Getting started
 
-After installing the Identity Theme successfully it requires a just a few more steps to get your site running.
+After installing the theme successfully it requires a just a few more steps to get your site running.
 
 
 ### The config file
