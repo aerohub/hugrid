@@ -8,8 +8,8 @@ Hugrid is based on Codrops' [Thumbnail Grid with Expanding Preview](http://tympa
 
 ## Demo
 
-[Demo on themes.gohugo.io](http://themes.gohugo.io/theme/hugrid/)
-[Original demo from Codrops](http://tympanus.net/Tutorials/ThumbnailGridExpandingPreview/)
+- [Demo on themes.gohugo.io](http://themes.gohugo.io/theme/hugrid/)
+- [Original demo from Codrops](http://tympanus.net/Tutorials/ThumbnailGridExpandingPreview/)
 
 ## Features
 
