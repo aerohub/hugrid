@@ -55,7 +55,7 @@ Take a look inside the [`exampleSite`](//github.com/aerohub/hugrid/tree/master/e
 
 ### Data file
 
-Take a look inside the [`exampleSite/data`](//github.com/aerohub/hugrid/tree/master/exampleSite/data) folder of this theme. You'll find a file called [`items.toml`](//github.com/aerohub/hugrid/blob/master/exampleSite/items.toml). To use it, copy the [`exampleSite/data`](//github.com/aerohub/hugrid/tree/master/exampleSite/data) folder in the root folder of your Hugo site. Change the strings in the `items.toml` with your data.
+Take a look inside the [`exampleSite/data`](//github.com/aerohub/hugrid/tree/master/exampleSite/data) folder of this theme. You'll find a file called [`items.toml`](//github.com/aerohub/hugrid/blob/master/exampleSite/data/items.toml). To use it, copy the [`exampleSite/data`](//github.com/aerohub/hugrid/tree/master/exampleSite/data) folder in the root folder of your Hugo site. Change the strings in the `items.toml` with your data.
 
 ### Nearly finished
 
