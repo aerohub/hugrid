@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "Hugrid - Grid Theme For Hugo"
 theme = "hugrid"
