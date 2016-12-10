@@ -1,6 +1,6 @@
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ .Site.Title }}</title>
 		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
 		<meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}" />
@@ -14,4 +14,7 @@
 		</style>
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default.css" />
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
+		{{ range .Site.Params.custom_css }}
+			<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+		{{ end }}
 		<script src="{{ .Site.BaseURL }}js/modernizr.custom.js"></script>
