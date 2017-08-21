@@ -301,11 +301,15 @@
 								href : $itemEl.attr( 'href' ),
 								largesrc : $itemEl.data( 'largesrc' ),
 								title : $itemEl.data( 'title' ),
-								description : $itemEl.data( 'description' )
+								description : $itemEl.data( 'description' ),
+								buttontext : $itemEl.data( 'buttontext' )
 							};
+						console.log(eldata)
 
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
+						if(eldata.buttontext) this.$href.text(eldata.buttontext);
+						else this.$href.text("{{ .Site.Params.buttontext }}")
 
 						if (eldata.href) {
 							this.$href.attr( 'href', eldata.href );
