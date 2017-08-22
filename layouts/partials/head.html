@@ -15,6 +15,6 @@
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default.css" />
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
 		{{ range .Site.Params.custom_css }}
-			<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+			<link rel="stylesheet" href="{{ . }}">
 		{{ end }}
 		<script src="{{ .Site.BaseURL }}js/modernizr.custom.js"></script>
