@@ -213,7 +213,7 @@
 					} ).children( 'a' ).on( 'click', function(e) {
 
 						var $item = $( this ).parent();
-						current === $item.index() ? hidePreview() : showPreview( $item );
+						current === Array.from($items).findIndex(d => d == $item[0]) ? hidePreview() : showPreview( $item );
 						return false;
 
 					} );
