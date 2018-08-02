@@ -124,7 +124,7 @@
 
 			var Grid = (function() {
 
-				var $grid = $( '#og-grid' ),
+				var $grid = $( '*#og-grid' ),
 					$items = $grid.children( 'li' ),
 					current = -1,
 					previewPos = -1,
@@ -213,7 +213,7 @@
 					} ).children( 'a' ).on( 'click', function(e) {
 
 						var $item = $( this ).parent();
-						current === $item.index() ? hidePreview() : showPreview( $item );
+						current === Array.from($items).findIndex(d => d == $item[0]) ? hidePreview() : showPreview( $item );
 						return false;
 
 					} );
@@ -260,7 +260,7 @@
 
 				function Preview( $item ) {
 					this.$item = $item;
-					this.expandedIdx = this.$item.index();
+					this.expandedIdx = Array.from($items).findIndex(d => d == this.$item[0]);
 					this.create();
 					this.update();
 				}
