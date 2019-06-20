@@ -1,0 +1,9 @@
+<ul id="og-grid" class="og-grid">
+					{{ range $.Site.Data.items.items }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+							<img src="{{.thumb}}" alt="{{.alt}}"/>
+						</a>
+					</li>
+					{{ end }}
+</ul>
