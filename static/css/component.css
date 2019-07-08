@@ -10,7 +10,7 @@
 	display: inline-block;
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
-	height: 250px;
+	height: auto;
 }
 
 .og-grid li > a,
